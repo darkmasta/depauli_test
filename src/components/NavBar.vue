@@ -53,7 +53,8 @@ export default {
       var vm = this
       const data = {email: this.email, password: this.password}
       console.log(data)
-      axios.post('http://localhost:5000/login', data)
+      // axios.post('http://localhost:5000/login', data)
+      axios.post('https://depaulitest.herokuapp.com/login', data)
         .then(function (response) {
           console.log(response.data);
           const user = response.data
