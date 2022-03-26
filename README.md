@@ -1,4 +1,6 @@
-# sample_api
+# Depauli Test
+URL:
+https://depaulitest.herokuapp.com/
 
 ## Project setup
 ```
